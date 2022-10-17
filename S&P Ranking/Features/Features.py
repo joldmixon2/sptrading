@@ -5,8 +5,11 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import scale
 import pandas as pd
 import numpy as np
+
+# replace keys to use
 from paperconfig import api_key2, secret_key2
 from config import api_key, secret_key
+
 from datetime import date
 from dateutil.relativedelta import relativedelta
 import pandas as pd
